@@ -27,7 +27,7 @@ console.log(basic, basicUp, basicDown)
 
 /* 07 - Split */
 var word = "banana"
-var letters = word.split();
+var letters = word.split("");
 console.log(letters);
 
 /* 08 - Template */
@@ -36,3 +36,15 @@ var template = `I'm ${age} years old`;
 console.log(template);
 
 /* ⭐ Bonus */
+
+var prenomDuneFille = word.substring(1,4);
+var celaCommencePar = basic.startsWith('This');
+var celaNeCommencePas = food.startsWith('this')
+
+console.log(prenomDuneFille);
+console.log(celaCommencePar);
+console.log(celaNeCommencePas);
+
+var changed = "Bonjour"
+var regex = /o/gi;
+console.log(changed.replace(regex,'a'));
