@@ -78,7 +78,7 @@ var score = 64;
 
 if (password.length > 5 && (score >= limit)) {
     console.log("Everything is good")
-} else if (password.length > 5 || score >= limit ) {
+} else if (password.length > 5 || score >= limit) {
     console.log("Something is good")
 } else {
     console.log("Nothing is good")
@@ -100,44 +100,44 @@ console.log(random)
 var month = "January"
 switch (month) {
     case "January":
-        console.log("Winter");
-        break
     case "February":
         console.log("Winter");
-        break
+        break;
+
     case "March":
-        console.log("Spring");
-        break
     case "April":
-        console.log("Spring");
-        break
     case "May":
+
         console.log("Spring");
-        break
+        break;
+
+
     case "June":
-        console.log("Summer");
-        break
     case "July":
+    case 'August':
+
         console.log("Summer");
-        break
-    case "August":
-        console.log("Summer");
-        break
-    case "September":
-        console.log("Fall");
-        break
-    case "October":
-        console.log("Fall");
         break
 
+
+    case "September":
+    case "October":
     case "November":
+
         console.log("Fall");
-        break
+        break;
+
+
     case "December":
         console.log("Winter");
-        break
+        break;
 
 
 }
 // Bonus III
 var roundedNumber = 3.6
+console.log(Math.round(3.6));
+console.log(Math.floor(roundedNumber));
+console.log(Math.ceil(roundedNumber));
+
+
