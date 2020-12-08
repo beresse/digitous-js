@@ -46,5 +46,5 @@ console.log(celaCommencePar);
 console.log(celaNeCommencePas);
 
 var changed = "Bonjour"
-var regex = /o/gi;
+var regex = /o/g;
 console.log(changed.replace(regex,'a'));
