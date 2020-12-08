@@ -72,15 +72,13 @@ if (password.length > 5) {
 
 // 08 Condition III Extreme
 
-var password = "azerty"
+var password = "aze"
 var limit = 50;
 var score = 64;
 
 if (password.length > 5 && (score >= limit)) {
     console.log("Everything is good")
-} else if (password.length > 5) {
-    console.log("Something is good")
-} else if (score >= limit) {
+} else if (password.length > 5 || score >= limit ) {
     console.log("Something is good")
 } else {
     console.log("Nothing is good")
@@ -141,3 +139,5 @@ switch (month) {
 
 
 }
+// Bonus III
+var roundedNumber = 3.6
