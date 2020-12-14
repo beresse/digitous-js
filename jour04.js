@@ -34,3 +34,49 @@ function checkIfEven (num) {
 }
 checkIfEven(14)
 checkIfEven(37)
+
+
+// 04 - Compare
+function compare(num1,num2){
+    if (num1 > num2) {
+        console.log(`${num1} of num 1 is bigger`)
+    } else if (num1 < num2) {
+        console.log(`${num2} of num 2 is bigger`)
+    } else if (num1 === num2) {
+        console.log(`${num1} and ${num2} both are the same number`)
+    }
+}
+
+compare(14,15)
+compare(17,12)
+compare(7,7)
+
+// 05 - Add Up
+
+function addUp(num){
+    var sum = 0;
+
+    for (var i = 0; i <= num; i++){
+        sum += i;
+        
+
+    }
+    return sum
+
+
+}
+var result = addUp(12)
+console.log(result)
+console.log(addUp(12))
+
+// 06 - Time
+
+// num c'est 3700
+function format (num){
+    var heures = Math.floor(num / (3600))
+    var minutes = Math.floor((num - 3600) / 60)
+    var secondes = ( (num - heures / minutes) /60 )
+    console.log(`${heures} : ${minutes} : ${secondes}`)
+}
+
+format(3700)
