@@ -75,7 +75,7 @@ console.log(addUp(12))
 function format (num){
     var heures = Math.floor(num / (3600))
     var minutes = Math.floor((num - 3600) / 60)
-    var secondes = ( (num - heures / minutes) /60 )
+    var secondes = num % 60;
     console.log(`${heures} : ${minutes} : ${secondes}`)
 }
 
