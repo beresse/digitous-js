@@ -19,6 +19,9 @@ function countEach(string){
     var i = 0;
     while (i < string){
         if (numX == "x") {
+            console.log("je suis ici")
+            numX++
+
             
         }
     }
