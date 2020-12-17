@@ -13,6 +13,7 @@ console.log(sortLetters(string))
 
 // 02 - XOXO
 function countEach(string){
+    
     var numX = 0;
     var numO = 0;
 }
