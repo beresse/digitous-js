@@ -36,7 +36,33 @@ if (numX === numO) {
 } else{
     console.log("False")
 }
+return
 }
 console.log("je commence ici")
-var testO = "xoxox0xo"
-console.log(countEach(testO))
+var testO = "xoxo"
+console.log(countEach(testO));
+
+// 03 - palindrome
+
+function checkPal(string){
+
+}
+
+
+function checkPal(string) {
+    
+    var petiteString = string.toLowerCase();
+    var stringReverse = petiteString.split('').reverse().join(''); 
+    var exemple = ["SOS", "KAYAK", "REVER"]
+    if (stringReverse === petiteString) {
+        console.log(`${petiteString} est un palindrome `)
+        
+    }else{
+        console.log("Nope ce n'est pas un Palindrome voici des exemples :");
+        console.table(exemple)
+    }
+    return stringReverse === petiteString;
+ }
+ 
+  console.log(checkPal("kaya"));
+
