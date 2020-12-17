@@ -44,11 +44,6 @@ console.log(countEach(testO));
 
 // 03 - palindrome
 
-function checkPal(string){
-
-}
-
-
 function checkPal(string) {
     
     var petiteString = string.toLowerCase();
