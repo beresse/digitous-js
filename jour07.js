@@ -13,7 +13,22 @@ console.log(sortLetters(string))
 
 // 02 - XOXO
 function countEach(string){
-    
+
     var numX = 0;
     var numO = 0;
+    var i = 0;
+    while (i < string){
+        if (numX == "x") {
+            
+        }
+    }
+
+if (numX === numO) {
+    console.log("True")
+    
+} else{
+    console.log("False")
 }
+}
+var testO = "xoxooxo"
+console.log(countEach(testO))
