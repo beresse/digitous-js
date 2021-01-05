@@ -31,4 +31,22 @@ var shortNames = longNames.map(function(short){
 
 console.log(shortNames)
 
-// 04 
+// 04 Filter Numbers
+var array = [1,"toto",34,"javascript",8]
+var numbers = array.filter(function(element){
+	if (typeof element == "number") {
+		return element
+
+
+	}
+})
+
+console.log(numbers)
+
+// 05 filter Even
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+var even = numbers.filter(function (element) {
+    if (element % 2 === 0) {
+        return element
+    }
+})
