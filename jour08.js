@@ -1,11 +1,22 @@
 
 // 01 Pas terminé de façon propre
+const { get } = require("request");
 var request = require("request");
 request.get("https://restcountries.eu/rest/v2/all", function (err, res, body) {
-    var countriesName = [""]
     var getCountries = JSON.parse(body)
-    console.log(getCountries[1].name)
-});
+    for (let index = 0; index < getCountries.length; index++) {
+        var pays = getCountries[index].name
+        console.log(`${pays}- `)
+        
+    } })
+    
+ /*   var pays = getCountries.map(v => v.name)
+    var str = pays.stringify
+    console.log(getCountries)
+    console.log(pays)*/
+
+    
+
 
 // 02 Chuck norris
 request.get("https://api.chucknorris.io/jokes/random", function(error,response,body){
